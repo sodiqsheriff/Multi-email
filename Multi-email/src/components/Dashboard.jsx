@@ -99,7 +99,7 @@ const Dashboard = () => {
       </div>
       <div className="flex items-center">
         <img src={Notification} alt="Notification" className=" w-10 h-10" />
-        <img src={chats} alt="chats" className="w-14 h-12" />
+        <img src={chats} alt="chats" className="w-10 h-8" />
       </div>
 
     </div>
@@ -107,12 +107,12 @@ const Dashboard = () => {
     <div className=" px-12">
       <div className="md:flex justify-center gap-10 pb-10">
         <div className="bg-green-400 shadow-2xl w-1/2 h-48 text-5xl text-center font-semibold font-play text-white">Sent Mail <p className="pt-16">0</p></div>
-        <div className="bg-red-600 shadow-2xl w-1/2 h-48 text-center font-semibold font-play text-white text-5xl">Outbox <p className="pt-16">0</p></div>
-        
+        <div className="bg-blue-600 shadow-2xl w-1/2 h-48 py-2 text-center font-semibold font-play text-white text-5xl">Inbox <p className="pt-12">0</p></div>
+      
       </div>
       <div className="md:flex justify-center gap-10 ">
-        <div className="bg-blue-400 shadow-2xl w-1/2 h-48 font-semibold font-play text-white text-5xl text-center">Inbox <p className="pt-16">0</p></div>
-        <div className="bg-white shadow-2xl w-1/2 h-48 font-semibold font-play text-black text-5xl text-center">Trash <p><img src={Trash}alt="Trash" className="ps-60 " /> </p></div>
+        <div className="bg-teal-600 shadow-2xl w-1/2 h-48 py-2 font-semibold font-play text-white text-5xl text-center">Outbox <p className="pt-16">0</p></div>
+        <div className="bg-red-500 shadow-2xl w-1/2 h-48 py-2 font-semibold font-play text-white text-5xl text-center">Trash <p><img src={Trash}alt="Trash" className="ps-60 w-auto " /> </p></div>
         
       </div>
       
