@@ -1,6 +1,7 @@
+import React, { useState } from 'react';
 import email from '../assets/email.png'
 
-function Login() {
+const Login = () => {
   
 
   return (
@@ -22,7 +23,7 @@ function Login() {
       </div>
 
       <div className="flex items-center justify-between">
-        <button className="bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline " type="button">Sign In</button>
+        <a href="/Dashboard" className=" btn bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline " type="button">Sign In</a>
         <a href="#" className="inline-block align-baseline font-bold text-md text-blue-700 hover:text-blue-900"> Forgot password?</a>
       </div>
      
